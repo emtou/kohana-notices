@@ -12,6 +12,3 @@ Route::set('notice-remove', 'notice/remove/<hash>')
 		'controller' => 'notice',
 		'action'     => 'remove'
 	));
-
-
-Notices::init();
